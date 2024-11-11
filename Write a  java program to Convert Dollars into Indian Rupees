@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class DollarToRupees {
+    public static void main(String[] args) {
+        // Define the conversion rate
+        double conversionRate = 82.0; // 1 USD = 82 INR (as an example)
+
+        // Create a Scanner object to read input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to input the amount in dollars
+        System.out.print("Enter the amount in dollars: ");
+        double dollars = scanner.nextDouble();
+
+        // Convert dollars to rupees
+        double rupees = dollars * conversionRate;
+
+        // Display the result
+        System.out.println(dollars + " USD is equal to " + rupees + " INR.");
+
+        // Close the scanner object
+        scanner.close();
+    }
+}
+output:
+Enter the amount in dollars: 100
+100.0 USD is equal to 8200.0 INR.
