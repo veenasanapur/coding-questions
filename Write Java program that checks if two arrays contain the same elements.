@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+public class CheckArraysEqual {
+    
+    public static void main(String[] args) {
+        // Example arrays to check
+        int[] array1 = {1, 2, 3, 4, 5};
+        int[] array2 = {1, 2, 3, 4, 5};
+        
+        // Check if the arrays are the same
+        if (areArraysEqual(array1, array2)) {
+            System.out.println("The arrays contain the same elements.");
+        } else {
+            System.out.println("The arrays do not contain the same elements.");
+        }
+    }
+    
+    // Method to check if two arrays contain the same elements
+    public static boolean areArraysEqual(int[] array1, 
+}
+}
+output:
+int[] array1 = {1, 2, 3, 4, 5};
+int[] array2 = {1, 2, 3, 4, 6};
