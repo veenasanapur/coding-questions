@@ -1,0 +1,12 @@
+public class MultiplicationTable {
+    public static void main(String[] args) {
+        // Given number for which we want the multiplication table
+        int number = 5;
+
+        // Loop through 1 to 10 to generate multiplication table
+        System.out.println("Multiplication table for " + number + ":");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
+    }
+}
